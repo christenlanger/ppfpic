@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>PPF Pic</title>
+        <link rel="stylesheet" type="text/css" href="style.css"  />
+        <script src="vue.global.prod.js"></script>
+    </head>
+    <body>
+        <section class="container" id="app">
+            <div class="catlist">
+                <template v-for="cat in items.cats">
+                    <div class="cat-entry">
+                        <div class="cat-name">
+                            {{ cat.name }}
+                        </div>
+                        <div class="cat-items">
+                            <template v-for="items in cat.items">
+                                <div>{{ items.name }}</div>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </section>
+        <script type="module" src="scripts.js"></script>
+    </body>
+</html>

@@ -13,6 +13,20 @@ createApp({
             .then(data => {
                 this.items = data;
                 this.debugEnabled = data.debugMode ?? false;
+
+                // Add isRevealed check for each item
+                this.items.cats = this.items.cats.map((cat) => {
+                    return {
+                        "name": cat.name,
+                        "items": cat.items.map((item) => {
+                            return {
+                                "name": item.name,
+                                "src": item.src,
+                                "isRevealed": false
+                            }
+                        })
+                    }
+                })
             })
             .catch(error => console.error("Unable to fetch data:", error));
     }

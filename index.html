@@ -16,8 +16,8 @@
                             {{ cat.name }}
                         </div>
                         <div class="cat-items">
-                            <template v-for="items in cat.items">
-                                <div>{{ items.name }}</div>
+                            <template v-for="item in cat.items">
+                                <div><img :src="items.path + '/' + item.src" :class="{ blur: !item.isRevealed }" width="120" /></div>
                             </template>
                         </div>
                     </div>

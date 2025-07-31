@@ -35,21 +35,32 @@ body {
 
 .cat-entry {
   width: 100%;
-  background-color: #505050;
   display: flex;
   flex-direction: row;
 }
 
 .cat-name {
   flex-basis: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cat-items {
   flex-basis: 80%;
   display: flex;
+  flex-direction: row;
   gap: 2rem;
 }
-
 .cat-items > div {
-  flex-basis: 15%;
+  flex-basis: 20%;
+  height: 10rem;
+  overflow: hidden;
+}
+.cat-items img {
+  width: 100%;
+  height: 100%;
+}
+.cat-items img.blur {
+  filter: blur(30px);
 }/*# sourceMappingURL=style.css.map */

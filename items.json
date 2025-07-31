@@ -3,36 +3,52 @@
     "debugMode": true,
     "cats": [
         {
-            "name": "Cat 1",
+            "name": "Longganisa",
             "items": [
                 {
-                    "name": "C1-1",
-                    "src": "sample.jpg"
+                    "name": "Vigan",
+                    "src": "longganisa-vigan.png"
                 },
                 {
-                    "name": "C1-2",
-                    "src": "sample.jpg"
+                    "name": "Hamonado",
+                    "src": "longganisa-hamonado.png"
                 },
                 {
-                    "name": "C1-3",
-                    "src": "sample.jpg"
+                    "name": "Guinobatan",
+                    "src": "longganisa-guinobatan.png"
+                },
+                {
+                    "name": "Chorizo",
+                    "src": "longganisa-chorizo.png"
+                },
+                {
+                    "name": "Cabanatuan",
+                    "src": "longganisa-cabanatuan.png"
                 }
             ]
         },
         {
-            "name": "Cat 2",
+            "name": "Tomato",
             "items": [
                 {
-                    "name": "C2-1",
-                    "src": "sample.jpg"
+                    "name": "Afritada",
+                    "src": "tomato-afritada.png"
                 },
                 {
-                    "name": "C2-2",
-                    "src": "sample.jpg"
+                    "name": "Mechado",
+                    "src": "tomato-mechado.png"
                 },
                 {
-                    "name": "C2-3",
-                    "src": "sample.jpg"
+                    "name": "Menudo",
+                    "src": "tomato-menudo.png"
+                },
+                {
+                    "name": "Giniling",
+                    "src": "tomato-giniling.png"
+                },
+                {
+                    "name": "Picadillo",
+                    "src": "tomato-picadillo.png"
                 }
             ]
         }
@@ -40,6 +56,8 @@
     "diff": [
         "Easy",
         "Normal",
-        "Hard"
+        "Hard",
+        "Harder",
+        "Hardest"
     ]
 }
